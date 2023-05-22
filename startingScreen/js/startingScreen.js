@@ -1,11 +1,14 @@
 var button = $("#continue-button");
-function nextPage(){
-    location.href = "../index.html";
-};
+
+// replace walking animation with eating animation
 button.click(function() {
-    console.log("clicked");
     $("#graphic").empty();
-    console.log("emptied");
     $("#graphic").append('<img src="img/eating.gif" width=650px>');
-    console.log("replaced");
+    // animation plays, then fades out, then goes to diagnosis page
+    setTimeout(function() {
+        $("#graphic").fadeOut(2000);
+    }, 1000);
+    setTimeout(function() {
+        location.href = "../index.html"
+    }, 4000);
 });
