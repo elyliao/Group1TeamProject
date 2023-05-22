@@ -1,5 +1,11 @@
-var button = document.getElementById("continue-button");
+var button = $("#continue-button");
 function nextPage(){
     location.href = "../index.html";
 };
-button.addEventListener("click", nextPage)
+button.click(function() {
+    console.log("clicked");
+    $("#graphic").empty();
+    console.log("emptied");
+    $("#graphic").append('<img src="img/eating.gif" width=650px>');
+    console.log("replaced");
+});
