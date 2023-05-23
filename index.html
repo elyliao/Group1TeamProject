@@ -16,16 +16,13 @@
     <!-- load jQuery library to make javascript easier (must be above our lab js)-->
 	<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
 	<!-- Link to javascript file - DEFER waits until all elements are rendered -->
-    <script type="text/javascript" src="./js/main.js" DEFER></script>
+    <script type="text/javascript" src="./js/startingScreen.js" DEFER></script>
 </head>
 <body>
-    <!-- diagnosis page after user makes person eat strawberry-->
-    <div id="diagnosis">
-        <h2>Uh Oh...</h2>
-        <div id="diagnosis-2">      You got
-        Heptatits A!</div>
-        <p id="diagnosis-3">Hepatitis A is a highly contagious liver infection caused by the Hepatitis A virus!</p>
-        <button id="diagnosis-button">Click to learn more!</button>
-    </div>
+    <!-- display animation and button to go to next page-->
+	<div id="graphic">
+		<h2>I really want to eat a strawberry right now...</h2>
+    		<button title="click to eat!" id="continue-button"><img src="img/walkingAnim.gif" width=650px></button>
+	</div>
 </body>
 </html>

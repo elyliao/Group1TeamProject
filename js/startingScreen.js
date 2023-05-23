@@ -9,6 +9,6 @@ button.click(function() {
         $("#graphic").fadeOut(2000);
     }, 1000);
     setTimeout(function() {
-        location.href = "../index.html"
+        location.href = "../diagnosis/index.html"
     }, 4000);
 });
