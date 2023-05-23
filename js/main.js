@@ -1,3 +1,4 @@
-var animationEl = document.getElementById("");
-animationEl.addEventListener("click", function(){
+var diagnosisEl = document.getElementById("diagnosis-button");
+diagnosisEl.addEventListener("click", function(){
+    document.location.href = 'startingScreen/index.html'
 })
