@@ -20,5 +20,5 @@ $("#symptom-3").click(function() {
 });
 
 $("#continue").click(function() {
-    location.href = "../main/index.html"
+    location.href = "../04_main/index.html"
 });
