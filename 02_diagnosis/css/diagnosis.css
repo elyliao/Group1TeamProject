@@ -1,29 +1,32 @@
+/* how to use flexbox: https://www.w3schools.com/css/css3_flexbox_container.asp */
+
 #diagnosis{
-margin: auto; 
-margin-top: 300px;  
-width: 50%; 
-
-
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 #diagnosis-2{
-    margin: auto;
+    text-align: center;
     font-size: 50px;
-    width: fit-content;
-
+    line-height: 70px;
 }
 
-h2{
-    margin: auto;
-    width: fit-content;
-    font-size: 70px;
-
-   
+#uh-oh{
+    animation-name: uh-oh;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 }
 
-#diagnosis-3 {
+@keyframes uh-oh {
+    from {font-size: 0px;}
+    to {font-size: 70px;}
+}
+
+button{
     margin: auto;
-    width: fit-content;
-    margin-top: 100px;  
-  
+    text-align: center;
+    width: 50%;
 }
