@@ -1,3 +1,5 @@
+// startingScreen.js -- This page plays the loading screen/starting animations and moves onto the next page through user interaction.
+
 var button = $("#continue-button");
 
 // replace walking animation with eating animation
