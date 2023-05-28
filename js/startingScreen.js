@@ -11,6 +11,6 @@ button.click(function() {
         $("#graphic").fadeOut(2000);
     }, 1000);
     setTimeout(function() {
-        location.href = "./02_diagnosis/index.html"
+        location.href = "./02_diagnosis/index.html";
     }, 4000);
 });

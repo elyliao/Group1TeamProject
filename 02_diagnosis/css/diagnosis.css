@@ -1,5 +1,6 @@
 /* how to use flexbox: https://www.w3schools.com/css/css3_flexbox_container.asp */
 
+/* the entire div */
 #diagnosis{
     display: flex;
     flex-direction: column;
@@ -7,26 +8,34 @@
     align-items: center;
 }
 
-#diagnosis-2{
-    text-align: center;
-    font-size: 50px;
-    line-height: 70px;
-}
-
+/* "You got Hepatitis A" */
 #uh-oh{
+    text-align: center;
     animation-name: uh-oh;
-    animation-duration: 2s;
+    animation-duration: 3s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
 }
 
 @keyframes uh-oh {
-    from {font-size: 0px;}
-    to {font-size: 70px;}
+    from {font-size: 0px;
+    opacity: 0;}
+    to {font-size: 70px;
+    opacity: 1;}
 }
 
 button{
     margin: auto;
     text-align: center;
     width: 50%;
+    animation-name: button;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes button {
+    0% {opacity: 0;}
+    75% {opacity: 0;}
+    100% {opacity: 1;}
 }

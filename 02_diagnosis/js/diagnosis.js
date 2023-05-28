@@ -1,3 +1,3 @@
 $("#diagnosis-button").click(function(){
-    location.href = "../03_about/index.html"
+    location.href = "../03_main/index.html"
 });
