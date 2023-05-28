@@ -4,11 +4,26 @@
 $("#about").show();
 $("#animation").hide();
 $("#main").hide();
-// reveal symptom images after clicking on each symptom button 
+$("#continue").hide();
+
+// for about section
+// counter for how many symptoms are shown (max 3)
+var symptom = 0;
+
+// function to show continue button once all 3 common symptoms have been revealed
+function reveal() {
+    if (symptom == 3) {
+        $("#continue").show();
+}};
+
+
+// reveal symptom images after clicking on each symptom button and check to see if all symptom buttons have been clicked
 $("#symptom-1").click(function() {
     console.log("clicked");
     $("#symptom-1").after('<img src="img/symptom1.png" width=300px>');
     $("#symptom-1").remove();
+    symptom += 1;
+    reveal();
 });
 
 $("#symptom-2").click(function() {
@@ -16,6 +31,8 @@ $("#symptom-2").click(function() {
     // image is a placeholder for now
     $("#symptom-2").after('<img src="img/symptom1.png" width=300px>');
     $("#symptom-2").remove();
+    symptom += 1;
+    reveal();
 });
 
 $("#symptom-3").click(function() {
@@ -23,20 +40,19 @@ $("#symptom-3").click(function() {
     // image is a placeholder for now
     $("#symptom-3").after('<img src="img/symptom1.png" width=300px>');
     $("#symptom-3").remove();
+    symptom +=1;
+    reveal();
 });
+
 
 // when continue button is clicked
 $("#continue").click(function() {
     $("#about").hide();
     $("#animation").show();
-    $("#animation").append('<img src="img/human-body.gif" width=650px>');
-    // animation plays, then fades out, then shows main content
-    setTimeout(function() {
-        $("#animation").fadeOut(2000);
-    }, 1000);
+    // animation plays, then hides, then shows main content
     setTimeout(function() {
         // hide animation div and show main div
         $("#animation").hide()
         $("#main").show()
-    }, 4000);
+    }, 2000);
 });
