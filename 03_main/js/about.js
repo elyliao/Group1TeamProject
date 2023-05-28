@@ -4,6 +4,7 @@
 $("#about").show();
 $("#animation").hide();
 $("#main").hide();
+$("#other-symptoms").hide();
 $("#continue").hide();
 
 // for about section
@@ -13,6 +14,7 @@ var symptom = 0;
 // function to show continue button once all 3 common symptoms have been revealed
 function reveal() {
     if (symptom == 3) {
+        $("#other-symptoms").show();
         $("#continue").show();
 }};
 
