@@ -39,3 +39,12 @@ button{
     75% {opacity: 0;}
     100% {opacity: 1;}
 }
+
+img{
+width: 500px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+}
