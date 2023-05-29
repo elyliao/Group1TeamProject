@@ -83,7 +83,7 @@ $("#symptom-1").click(function() {
 $("#symptom-2").click(function() {
     console.log("clicked");
     // image is a placeholder for now
-    $("#symptom-2").after('<img src="img/symptom1.png" width=250px>');
+    $("#symptom-2").after('<img src="img/symptom2.png" width=250px>');
     $("#symptom-2").remove();
     symptom += 1;
     // check if everything has been shown
@@ -93,7 +93,7 @@ $("#symptom-2").click(function() {
 $("#symptom-3").click(function() {
     console.log("clicked");
     // image is a placeholder for now
-    $("#symptom-3").after('<img src="img/symptom1.png" width=250px>');
+    $("#symptom-3").after('<img src="img/symptom3.png" width=250px>');
     $("#symptom-3").remove();
     symptom +=1;
     // check if everything has been shown

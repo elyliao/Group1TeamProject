@@ -42,6 +42,10 @@ html, body {
     align-items: center;
 }
 
+.symptoms img{
+    margin: 10px;
+}
+
 button {
     font-size: 15px;
     margin: 50px;
