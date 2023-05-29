@@ -15,20 +15,21 @@
     animation-duration: 3s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
-    margin-top: 100px;
+    margin-top: 200px;
+    font-weight: 300;
 }
 
 @keyframes uh-oh {
-    from {font-size: 0px;
-    opacity: 0;}
-    to {font-size: 70px;
-    opacity: 1;}
+    from {font-size: 50px;
+    opacity: 1000;}
+    to {font-size: 100px;
+    opacity: 1000;}
 }
 
 button{
     margin: auto;
     text-align: center;
-    width: 50%;
+    width: 40%;
     animation-name: button;
     animation-duration: 4s;
     animation-iteration-count: 1;
@@ -54,3 +55,4 @@ button{
     width: 70px;
     height: 70px;
   }
+
