@@ -40,3 +40,17 @@ button{
     75% {opacity: 0;}
     100% {opacity: 1;}
 }
+
+button{
+    border: none;
+    cursor: pointer;
+    appearance: none;
+    background-color: inherit;
+     transition: transform .7s ease-in-out;
+
+  }
+
+  img{
+    width: 70px;
+    height: 70px;
+  }
