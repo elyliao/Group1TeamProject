@@ -111,7 +111,8 @@ $("#continue").click(function() {
         $("#main").show();
     }, 2000);
 });
-
+/*
+Some thing for later use?
 $("#body.liver").click(function(){
     $("#liver").show();
 })
@@ -123,3 +124,4 @@ $("#body.digestive").click(function(){
 $("#body.joint").click(function(){
     $("#joint-pain").show();
 })
+*/
