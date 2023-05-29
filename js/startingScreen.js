@@ -1,3 +1,5 @@
+// startingScreen.js -- This page plays the loading screen/starting animations and moves onto the next page through user interaction.
+
 var button = $("#continue-button");
 
 // replace walking animation with eating animation
@@ -9,6 +11,6 @@ button.click(function() {
         $("#graphic").fadeOut(2000);
     }, 1000);
     setTimeout(function() {
-        location.href = "../index.html"
+        location.href = "./02_diagnosis/index.html";
     }, 4000);
 });
