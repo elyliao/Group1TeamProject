@@ -107,7 +107,19 @@ $("#continue").click(function() {
     // animation plays, then hides, then shows main content
     setTimeout(function() {
         // hide animation div and show main div
-        $("#animation").hide()
-        $("#main").show()
+        $("#animation").hide();
+        $("#main").show();
     }, 2000);
 });
+
+$("#body.liver").click(function(){
+    $("#liver").show();
+})
+
+$("#body.digestive").click(function(){
+    $("#digestive-system").show();
+})
+
+$("#body.joint").click(function(){
+    $("#joint-pain").show();
+})
