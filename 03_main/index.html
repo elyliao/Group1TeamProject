@@ -8,6 +8,7 @@
 	<meta charset="UTF-8" />
 	<!-- Set viewport so page remains consistently scaled w narrow devices -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	
 
 	<!-- Include a sitewide CSS file for consistent styling across the site -->
 	<link rel="stylesheet" type="text/css" href="../css/main.css">
@@ -28,6 +29,7 @@
 			<img id="transmission" src="img/transmission.gif" width=300px>
 			<img id="common-symptoms" src="img/symptoms.gif" width=300px>
 		</div>
+
 		<div class="explanation">
 			<p id="what-explanation">Hepatitis A is an inflammation of the liver that is primarily spread through the ingestion of food or water contaminated with the Hepatitis A Virus (HAV), in which the contamination is often due to contact with fecal matter of an infected person. Unlike Hepatitis B and C, it does not lead to chronic liver disease, but it can still be fatal -- in rare cases, it can eventually lead to acute liver failure, or fulminant hepatitis (1).</p>
 			<dl id="transmission-explanation">
@@ -37,25 +39,41 @@
 				<dt>Consuming contaminated items.</dt>
 					<dd>- Food items can be contaminated anytime from the growing process to even after cooking (2).</dd>
 			</dl>
-			<div id="common-symptoms-explanation">
-				<div class="symptoms">
-					<button id="symptom-1">Symptom 1</button>
-					<button id="symptom-2">Symptom 2</button>
-					<button id="symptom-3">Symptom 3</button>
-					<p id="other-symptoms">Other symptoms may include (but are not limited to): diarrhea, loss of appetite, fever, jaundice, and joint pain (3).</p>
-				</div>
+		</div>
+
+		<div id="common-symptoms-explanation">
+			<div class="symptoms">
+				<button id="symptom-1">Symptom 1</button>
+				<button id="symptom-2">Symptom 2</button>
+				<button id="symptom-3">Symptom 3</button>
+				<p id="other-symptoms">Other symptoms may include (but are not limited to): diarrhea, loss of appetite, fever, jaundice, and joint pain (3).</p>
 			</div>
 		</div>
+
 		<button id="continue">Continue</button>
 	</div>
+
 	<div id="animation">
 	</div>
+
 	<div id="main">
-		<!-- <img src="img/human.png" id="bg"> -->
-		<p id="liver">Liver -- this is the main area of inflammation. Jaundice can be a symptom of Hepatitis A as it is caused by issues with bilirubin production, which involves the liver (4).<br></p>
-		<p id="digestive-system">The digestive system/Stomach -- Common symptoms of Hepatitis A include abdominal pain, nausea and vomiting, loss of appetite, and diarrhea. These symptoms are very common among other infections/illnesses.</p>
-		<p id="joint-pain">Joint pain -- joint pain can be caused by many things, including medical issues and old age, however they can also be caused by viral infections such as Hepatitis A (5). </p>
+			<button id="button-liver" title="Click to learn about Liver pain" class="transparent-button"></button>
+			<button id="button-digestive-system" title="Click to learn about digestive pain" class="transparent-button"></button>
+			<button id="button-joint-pain" title="Click to learn about Joint pain" class="transparent-button"></button>
+			</div>
+		  
+		  <div class="popup" id="popup-liver">
+			<p>Liver -- this is the main area of inflammation. Jaundice can be a symptom of Hepatitis A as it is caused by issues with bilirubin production, which involves the liver (4)</p>
+		  </div>
+		  
+		  <div class="popup" id="popup-digestive-system">
+			<p>The digestive system/Stomach -- Common symptoms of Hepatitis A include abdominal pain, nausea and vomiting, loss of appetite, and diarrhea. These symptoms are very common among other infections/illnesses.</p>
+		  </div>
+		  
+		  <div class="popup" id="popup-joint-pain">
+			<p>Joint pain -- joint pain can be caused by many things, including medical issues and old age, however they can also be caused by viral infections such as Hepatitis A (5).</p>
 	</div>
+
 	<div id= sources>
 		<h2>Sources</h2>
 		<!-- replace with MLA sources later -->
