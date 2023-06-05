@@ -4,6 +4,7 @@ html, body {
     margin: 0;
     padding: 0;
     background-color: rgb(181, 97, 89);
+
   }
 
 #main {
@@ -74,7 +75,17 @@ button {
     margin: 0px;
     right: 50px;
 }
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
 
+
+}
+#fff{
+    color: aqua;
+}
 /* animation section */
 #animation {
     height: 100%;
@@ -89,7 +100,7 @@ button {
     padding: 20px;
     margin: 30px;
     border-radius: 20px;
-    background-color:rgb(216, 179, 176);
+    background-color:rgb(232, 179, 176);
 }
 
 #sources {
@@ -104,7 +115,7 @@ button {
     position: fixed;
     top: 50%;
     left: 50%;
-    background-color: rgb(216, 179, 176);
+    background-color: rgb(223, 171, 167);
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
