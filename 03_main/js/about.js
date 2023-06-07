@@ -129,29 +129,29 @@ $("#body.joint").click(function(){
 function togglePopup(popupId) {
     var popup = document.getElementById(popupId);
     popup.style.display = (popup.style.display === 'none') ? 'block' : 'none';
-  }
-  
-  document.getElementById('button-liver').addEventListener('click', function() {
-    togglePopup('popup-liver');
-  });
-  
-  document.getElementById('button-digestive-system').addEventListener('click', function() {
-    togglePopup('popup-digestive-system');
-  });
-  
-  document.getElementById('button-joint-pain').addEventListener('click', function() {
-    togglePopup('popup-joint-pain');
-  });
-  
-  document.body.addEventListener('click', function(event) {
+}
+
+$("#button-liver").click(function() {
+    togglePopup("popup-liver");
+})
+
+$("#button-digestive-system").click(function() {
+    togglePopup("popup-digestive-system");
+})
+
+$("#button-joint-pain").click(function() {
+    togglePopup("popup-joint-pain");
+})
+
+document.body.addEventListener('click', function(event) {
     var clickedElement = event.target;
     var popups = document.getElementsByClassName('popup');
     
     Array.from(popups).forEach(function(popup) {
-      var button = document.getElementById('button-' + popup.id.substring(6));
-      
-      if (popup.style.display === 'block' && clickedElement !== button && !popup.contains(clickedElement)) {
-        popup.style.display = 'none';
-      }
+        var button = document.getElementById('button-' + popup.id.substring(6));
+        // if user clicks outside of button, hide the popup
+        if (popup.style.display === 'block' && clickedElement !== button && !popup.contains(clickedElement)) {
+            popup.style.display = 'none';
+        }
     });
-  });
+});
