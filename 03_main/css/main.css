@@ -187,3 +187,10 @@ body {
 .bg-body{
     color: black;
 }
+
+#dropdown{
+width: 700px;
+height: fit-content;
+background-color: rgb(71, 0, 0);
+place-content:center;
+}
