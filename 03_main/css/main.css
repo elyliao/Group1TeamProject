@@ -142,19 +142,16 @@ body {
 }
 
 #button-digestive-system{
-    position:absolute;
-    top: 200px;
-    left: 950px;
-    background-color: rgb(181, 97, 89);
-    color: white;
+    position: absolute;
+    top: 0px;
+    right: 420px;
+    width: 340px;
 }
 
 #button-joint-pain{
     position:absolute;
-    top: 275px;
-    left: 1300px;
-    background-color: rgb(181, 97, 89);
-    color: white;
+    left: 880px;
+
 }
 
 #popup-joint-pain{
