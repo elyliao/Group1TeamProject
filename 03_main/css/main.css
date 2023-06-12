@@ -136,9 +136,9 @@ body {
   
 #button-liver{
     position: absolute;
-    top: 40px;
-    right: 600px;
-    width: 280px;
+    top: 65px;
+    right: 890px;
+    width: 325px;
 }
 
 #button-digestive-system{
@@ -177,7 +177,7 @@ body {
     position:absolute;
     top: 200px;
     left: 325px;
-    background-color: rgb(251, 184, 184);
+    background-color: rgb(181, 97, 89);
     color: white;
 }
 
