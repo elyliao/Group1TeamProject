@@ -189,8 +189,7 @@ body {
 }
 
 #dropdown{
-width: 700px;
+width:max-content;
 height: fit-content;
 background-color: rgb(71, 0, 0);
-place-content:center;
 }
