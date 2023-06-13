@@ -151,7 +151,7 @@ body {
 #button-digestive-system{
     position: absolute;
     top: -5vh;
-    right: 75vh;
+    right: 70vh;
     width: 50vh;
     height: 45vh;
     margin: auto;
@@ -161,7 +161,7 @@ body {
     position: absolute;
 
     top: 4vh;
-    right: 98vh;
+    right: 93vh;
     width: 40vh;
     margin: auto;
 }
@@ -169,7 +169,7 @@ body {
 #button-joint-pain{
     position:absolute;
     top: 0vh;
-    right: 50vh;
+    right: 48vh;
     width: 20vh;
     height: 60vh;
     margin: auto;
