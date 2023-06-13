@@ -159,17 +159,11 @@ body {
 
 #button-liver{
     position: absolute;
-<<<<<<< Updated upstream
-    top: 65px;
-    right: 890px;
-    width: 325px;
-    background-size: contain;
-=======
+
     top: 4vh;
     right: 98vh;
     width: 40vh;
     margin: auto;
->>>>>>> Stashed changes
 }
 
 #button-joint-pain{
