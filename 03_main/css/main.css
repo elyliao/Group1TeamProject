@@ -136,21 +136,23 @@ body {
   
 #button-liver{
     position: absolute;
-    top: 65px;
-    right: 890px;
-    width: 325px;
+    top: 45px;
+    right: 590px;
+    width: 215px;
 }
 
 #button-digestive-system{
     position: absolute;
     top: 0px;
-    right: 420px;
-    width: 340px;
+    right: 450px;
+    width: 270px;
 }
 
 #button-joint-pain{
     position:absolute;
-    left: 880px;
+    top: 0px;
+    left: 860px;
+    width: 100px;
 
 }
 
