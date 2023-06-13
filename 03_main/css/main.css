@@ -10,6 +10,10 @@ html, body {
 #main {
     height: 100%;
     width: 100%;
+    position: relative;
+    display: inline-block;
+    /*height: 100%;
+    width: 100%;
     background-image: url("../img/human.png");
     background-size: contain, cover;
     background-position: center;
@@ -19,6 +23,16 @@ html, body {
     flex-direction: column; 
     justify-content: center;
     align-items: center;
+    height: 100vh;*/
+}
+
+#human {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
     height: 100vh;
 }
 
@@ -133,30 +147,38 @@ body {
     text-align: center;
     width: 300px;
 }
-  
 
 #button-digestive-system{
     position: absolute;
-    top: -25px;
-    right: 655px;
-    width: 450px;
-    height: 400px;
+    top: -5vh;
+    right: 75vh;
+    width: 50vh;
+    height: 45vh;
+    margin: auto;
 }
 
 #button-liver{
     position: absolute;
+<<<<<<< Updated upstream
     top: 65px;
     right: 890px;
     width: 325px;
     background-size: contain;
+=======
+    top: 4vh;
+    right: 98vh;
+    width: 40vh;
+    margin: auto;
+>>>>>>> Stashed changes
 }
 
 #button-joint-pain{
     position:absolute;
-    top: -15px;
-    right:460px;
-    width: 170px;
-    height: 675px;
+    top: 0vh;
+    right: 50vh;
+    width: 20vh;
+    height: 60vh;
+    margin: auto;
 
 }
 
