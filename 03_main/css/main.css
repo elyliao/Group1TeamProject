@@ -134,6 +134,15 @@ body {
     width: 300px;
 }
   
+
+#button-digestive-system{
+    position: absolute;
+    top: -25px;
+    right: 655px;
+    width: 450px;
+    height: 400px;
+}
+
 #button-liver{
     position: absolute;
     top: 65px;
@@ -141,16 +150,12 @@ body {
     width: 325px;
 }
 
-#button-digestive-system{
-    position: absolute;
-    top: 0px;
-    right: 420px;
-    width: 340px;
-}
-
 #button-joint-pain{
     position:absolute;
-    left: 880px;
+    top: -15px;
+    right:460px;
+    width: 170px;
+    height: 675px;
 
 }
 
