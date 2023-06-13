@@ -30,8 +30,7 @@ function reveal() {
         // also reveal continue button if all 3 symptoms have been checked AND all 3 tabs have been checked
         if (tab == 3) {
             $("#continue").show();
-    }
-}};
+ }}};
 
 // tab to reveal what hep a is
 $("#what").click(function() {
@@ -82,7 +81,6 @@ $("#symptom-1").click(function() {
 
 $("#symptom-2").click(function() {
     console.log("clicked");
-    // image is a placeholder for now
     $("#symptom-2").after('<img src="img/symptom2.png" width=250px>');
     $("#symptom-2").remove();
     symptom += 1;
@@ -92,7 +90,6 @@ $("#symptom-2").click(function() {
 
 $("#symptom-3").click(function() {
     console.log("clicked");
-    // image is a placeholder for now
     $("#symptom-3").after('<img src="img/symptom3.png" width=250px>');
     $("#symptom-3").remove();
     symptom +=1;
